@@ -9,8 +9,8 @@ def hello(array)
 end
 
 binding.pry
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
 #Arrays are great for storing lists of information
 #Block is code inside do and end or in-line between { and }
-#Return value of a while loop is always nil 
+#Return value of a while loop is always nil
