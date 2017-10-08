@@ -12,4 +12,3 @@ end
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
 #Arrays are great for storing lists of information
 #Block is code inside do and end or in-line between { and }
-#
