@@ -10,3 +10,5 @@ end
 
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+
+#all methods in ruby return on the last statement
